@@ -7,7 +7,8 @@ package com.lyle.dpb.create.工厂方法;
 public interface AbstractFactory {
 
     /**
-     * 通过这个方法来生成具体产品，这也是为什么叫工厂方法的原因
+     * <pre>通过这个方法来生成具体产品，这也是为什么叫工厂方法的原因</pre>
+     * <pre>一般情况下，一个具体工厂中只有一个工厂方法或者一组重载的工厂方法</pre>
      */
     Product createProduct();
 }
