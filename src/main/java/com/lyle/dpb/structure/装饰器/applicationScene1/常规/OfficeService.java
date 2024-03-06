@@ -1,4 +1,4 @@
-package com.lyle.dpb.structure.装饰器.常规;
+package com.lyle.dpb.structure.装饰器.applicationScene1.常规;
 
 import java.util.Map;
 

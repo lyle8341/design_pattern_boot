@@ -3,10 +3,17 @@ package com.lyle.dpb.create.原型模式.序列化_反序列化;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.io.*;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serial;
+import java.io.Serializable;
 import java.util.Date;
 
 /**
+ * 深克隆
+ *
  * @author lyle 2024-02-03 21:04
  */
 @Getter
@@ -20,7 +27,7 @@ public class Sheep implements Serializable {
     private Date birthday;
 
 
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args) throws Exception {
         Sheep s = new Sheep();
         s.setName("山羊");
         s.setBirthday(new Date());
@@ -36,4 +43,6 @@ public class Sheep implements Serializable {
         System.out.println(o);
 
     }
+
+
 }
