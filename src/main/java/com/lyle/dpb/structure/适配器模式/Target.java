@@ -1,4 +1,4 @@
-package com.lyle.dpb.structure.装饰器.applicationScene2;
+package com.lyle.dpb.structure.适配器模式;
 
 /**
  * 现在客户端需要一个求得一个数的平方的函数接口 (target) ，传入一个数，得到它的平方值。

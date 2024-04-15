@@ -1,4 +1,4 @@
-package com.lyle.dpb.structure.装饰器.applicationScene2;
+package com.lyle.dpb.structure.适配器模式;
 
 /**
  * @author lyle 2024-02-05 23:10

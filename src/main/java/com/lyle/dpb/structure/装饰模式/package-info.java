@@ -3,4 +3,4 @@
  *
  * @author lyle 2024-01-21 21:23
  */
-package com.lyle.dpb.structure.装饰器;
+package com.lyle.dpb.structure.装饰模式;

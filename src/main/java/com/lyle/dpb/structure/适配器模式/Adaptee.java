@@ -1,4 +1,4 @@
-package com.lyle.dpb.structure.装饰器.applicationScene2;
+package com.lyle.dpb.structure.适配器模式;
 
 /**
  * 有一个类 (adaptee) 实现了数学中的幂次运算，方法中需要传入两个参数，一个是基数 base ，另外一个是幂次 exp

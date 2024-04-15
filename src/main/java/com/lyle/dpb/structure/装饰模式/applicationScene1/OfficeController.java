@@ -1,7 +1,7 @@
-package com.lyle.dpb.structure.装饰器.applicationScene1;
+package com.lyle.dpb.structure.装饰模式.applicationScene1;
 
-import com.lyle.dpb.structure.装饰器.applicationScene1.常规.OfficeService;
-import com.lyle.dpb.structure.装饰器.applicationScene1.扩展.OfficeServiceWrapper;
+import com.lyle.dpb.structure.装饰模式.applicationScene1.常规.OfficeService;
+import com.lyle.dpb.structure.装饰模式.applicationScene1.扩展.OfficeServiceWrapper;
 
 import java.util.Map;
 
