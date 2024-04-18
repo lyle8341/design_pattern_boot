@@ -12,5 +12,12 @@ public class App {
         String str = exp + " squared equals ";
         str += target.getSquared(exp);
         System.out.println(str);
+
+
+        //==========
+        Target t = new Adapter2();
+        long squared = t.getSquared(exp);
+        System.out.println("squared = " + squared);
+
     }
 }

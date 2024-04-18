@@ -8,8 +8,11 @@
 + 抽象工厂就像工厂，而工厂方法就像工厂中的某一条产品线
 + 
 
-
-
+## 适配器模式
+```
+java.io.InputStreamReader(InputStream)
+java.io.OutputStreamWriter(OutputStream)
+```
 
 ## SuppressWarnings
 > @SuppressWarnings({"serial", "unchecked"})
