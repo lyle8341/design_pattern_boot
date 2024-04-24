@@ -2,7 +2,6 @@
 
 ## GOF(group of four)
 
-
 ## 工厂模式
 + 大部分工厂类都是以“Factory”这个单词结尾的，但也不是必须的，比如 Java 中的DateFormat、Calender。除此之外，工厂类中创建对象的方法一般都是 create 开头，比如代码中的 createParser()，但有的也命名为 getInstance()、createInstance()、newInstance()，有的甚至命名为 valueOf()（比如 Java String 类的 valueOf() 函数）等等，这个我们根据具体的场景和习惯来命名就好。
 + 抽象工厂就像工厂，而工厂方法就像工厂中的某一条产品线

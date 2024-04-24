@@ -1,4 +1,4 @@
-package com.lyle.dpb.behaviour.责任链模式;
+package com.lyle.dpb.behaviour.责任链模式.leave;
 
 /**
  * @author lyle 2024-04-23 23:29
