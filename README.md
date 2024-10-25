@@ -24,6 +24,11 @@ java.io.InputStreamReader(InputStream)
 java.io.OutputStreamWriter(OutputStream)
 ```
 
+## 中介者模式
++ 解耦多个同事对象之间的交互关系。每个对象都持有中介者对象的引用，只跟中介者对象打交道。
+
+
+
 ## SuppressWarnings
 > @SuppressWarnings({"serial", "unchecked"})
 + all: this is sort of a wildcard that suppresses all warnings
