@@ -28,6 +28,30 @@ java.io.OutputStreamWriter(OutputStream)
 + 解耦多个同事对象之间的交互关系。每个对象都持有中介者对象的引用，只跟中介者对象打交道。
 
 
+## 命令模式
++ 将一个请求封装为一个对象，从而使我们可用不同的请求对客户进行参数化；对请求排队或者记录请求日志，以及支持可撤销的操作。也称之为：动作action模式、事务transaction模式
++ It decouples the sender(Invoker) from the receiver(understand the specific tasks mentioned in commands)
+
+## 解释器模式
++ EL表达式的处理
++ 正则表达式解释器
++ SQL语法的解释器
++ 数学表达式解析器
+  + https://sourceforge.net/projects/expression-tree/files/expression-tree
+  + https://sourceforge.net/projects/expression4j/
+
+## 状态模式
++ 结构
+  + Context环境类
+    + 环境类中维护一个State对象，他是定义了当前的状态
+  + State抽象状态类
+  + ConcreteState具体状态类
+    + 每一个类封装了一个状态对应的行为
+
+## 状态模式与策略模式的区别
++ 策略模式定义了一组可互相代替的算法，这一组算法对象完成的是同一个任务，只是方式不同
++ 状态模式不同的状态完成的任务完全不一样
+
 
 ## SuppressWarnings
 > @SuppressWarnings({"serial", "unchecked"})

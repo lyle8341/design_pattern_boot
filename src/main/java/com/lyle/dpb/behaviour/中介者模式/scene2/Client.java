@@ -3,7 +3,7 @@ package com.lyle.dpb.behaviour.中介者模式.scene2;
 /**
  * @author lyle 2024-10-25 14:31
  */
-public class Clien {
+public class Client {
 
     public static void main(String[] args) {
 
