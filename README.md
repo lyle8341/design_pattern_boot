@@ -52,6 +52,13 @@ java.io.OutputStreamWriter(OutputStream)
 + 策略模式定义了一组可互相代替的算法，这一组算法对象完成的是同一个任务，只是方式不同
 + 状态模式不同的状态完成的任务完全不一样
 
+## 备忘录模式
++ 源发器类 Originator（对象内部状态）
++ 备忘录类 Memento （对象内部状态的拷贝）
++ 负责人类 CareTaker （存储备忘录）
+
+
+
 
 ## SuppressWarnings
 > @SuppressWarnings({"serial", "unchecked"})
