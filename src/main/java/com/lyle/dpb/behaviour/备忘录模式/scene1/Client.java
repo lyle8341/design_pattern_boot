@@ -1,4 +1,4 @@
-package com.lyle.dpb.behaviour.备忘录模式;
+package com.lyle.dpb.behaviour.备忘录模式.scene1;
 
 /**
  * @author lyle 2024-10-29 23:13

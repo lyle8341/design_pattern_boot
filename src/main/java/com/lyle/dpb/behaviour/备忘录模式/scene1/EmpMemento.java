@@ -1,4 +1,4 @@
-package com.lyle.dpb.behaviour.备忘录模式;
+package com.lyle.dpb.behaviour.备忘录模式.scene1;
 
 /**
  * 备忘录类

@@ -1,4 +1,4 @@
-package com.lyle.dpb.behaviour.备忘录模式;
+package com.lyle.dpb.behaviour.备忘录模式.scene1;
 
 import java.util.ArrayList;
 import java.util.List;
